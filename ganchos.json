@@ -1,0 +1,9 @@
+[
+ {
+  "id": "pkill-f",
+  "ferramenta": "Bash",
+  "padrao": "(^|[;&|(\\n]\\s*|\\bsudo\\s+|\\btimeout\\s+\\S+\\s+)pkill\\b[^|;&\\n`'\"]*\\s-f\\b",
+  "mensagem": "pkill -f casa com o próprio comando e já matou o shell (exit 144) em 6 projetos. Liste com `pgrep -af <padrão>` num comando, e mate por PID (`kill <pid>`) em outro — ou pare a unidade systemd.",
+  "origem": "FALHAS de execucao-longa, historia-timelapse, imgem-som-video, kit-15-comandos, portal, wifi (7x)"
+ }
+]
